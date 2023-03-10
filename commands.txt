@@ -1,1 +1,5 @@
+//to profile
 go test -bench .-benchtime=10x-run^$ -cpuprofile cpu00.pprof  
+
+//to teace
+go test -bench .-benchtime=10x-run^$ -trace teace01.out
